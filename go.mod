@@ -1,3 +1,3 @@
-module github.com/jaringankantor/Pertemuan03_Latihan-Module
+module github.com/jaringankantor/Pertemuan03LatihanModule
 
 go 1.17
