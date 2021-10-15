@@ -1,5 +1,5 @@
 package module
 
-func biodata(nim int) string string {
-	
+func biodata(nim int) bool {
+	return true
 }

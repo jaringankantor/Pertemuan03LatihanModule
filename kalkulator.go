@@ -1,4 +1,5 @@
 package module
 
-func tambah(a int, b int) int {
+func tambah(a int, b int) bool {
+	return true
 }
