@@ -2,6 +2,6 @@ package module
 
 import "fmt"
 
-func biodata() {
+func main() {
 	fmt.Println("hallo")
 }
