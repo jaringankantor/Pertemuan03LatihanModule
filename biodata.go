@@ -30,6 +30,6 @@ func TampilData() {
 	fmt.Println(pegawai)
 }
 
-func (pegawai Pegawai) selamatDatang(nama string) {
+func (pegawai Pegawai) SelamatDatang(nama string) {
 	fmt.Println("Selamat datang", nama, "giat bekerja ya pak", pegawai.Nama)
 }
