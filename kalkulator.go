@@ -6,6 +6,6 @@ func About() {
 	fmt.Println("Ini adalah fungsi kalkulator")
 }
 
-func Kalkulator(a int, b int) {
-
+func Tambah(a int, b int) int {
+	return a + b
 }
