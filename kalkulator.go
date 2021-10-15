@@ -2,6 +2,23 @@ package module
 
 import "fmt"
 
+type PersegiInterface interface {
+	Keliling() int
+	Luas() int
+}
+
+type InputPersegi struct {
+	a, b int
+}
+
+func (in InputPersegi) Keliling() int {
+	return (in.a + in.b) * 2
+}
+
+func (in InputPersegi) Luas() int {
+	return in.a * in.b
+}
+
 func About() {
 	fmt.Println("Ini adalah fungsi kalkulator")
 }

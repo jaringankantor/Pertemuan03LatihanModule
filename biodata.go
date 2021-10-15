@@ -33,3 +33,17 @@ func TampilData() {
 func (pegawai Pegawai) SelamatDatang(nama string) {
 	fmt.Println("Selamat datang", nama, "giat bekerja ya pak", pegawai.Nama)
 }
+
+func AnonymousDataOrtu() {
+	OrangTua := struct {
+		Usia     int8
+		NamaOrtu string
+		Hidup    bool
+	}{
+		Usia:     63,
+		NamaOrtu: "Syahroni",
+		Hidup:    true,
+	}
+
+	fmt.Println(OrangTua)
+}
