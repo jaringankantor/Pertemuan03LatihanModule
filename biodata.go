@@ -29,3 +29,7 @@ func TampilData() {
 
 	fmt.Println(pegawai)
 }
+
+func (pegawai Pegawai) selamatDatang(nama string) {
+	fmt.Println("Selamat datang", nama, "giat bekerja ya pak", pegawai.Nama)
+}
