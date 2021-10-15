@@ -9,3 +9,9 @@ func About() {
 func Tambah(a int, b int) int {
 	return a + b
 }
+
+func Persegi(a int, b int) (int, int) {
+	keliling := (a + b) * 2
+	luas := a * b
+	return keliling, luas
+}
