@@ -22,7 +22,7 @@ func User(name string, isAktif Active) {
 func TampilData() {
 	pegawai := Pegawai{
 		LamaBekerja: 5,
-		Nama:        "Anwar",
+		Nama:        "Anwars",
 		Divisi:      "Keuangan",
 		Aktif:       true,
 	}
